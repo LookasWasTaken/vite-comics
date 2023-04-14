@@ -24,7 +24,7 @@ import CardBox from "./CardBox.vue"
 .card_container{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .card{

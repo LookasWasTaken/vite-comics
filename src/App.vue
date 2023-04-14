@@ -22,6 +22,9 @@ export default {
   <SiteHeader></SiteHeader>
 
   <main>
+    <div class="mamt">
+      <img class="w-100" src="./assets/img/jumbotron.jpg" alt="Jumbotron">
+    </div>
     <section id="main_section" class="bg-dark">
       <div class="container py-5">
         <CardContainer></CardContainer>
@@ -34,4 +37,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.mamt{
+  height: 430px;
+  overflow: hidden;
+}
 </style>
