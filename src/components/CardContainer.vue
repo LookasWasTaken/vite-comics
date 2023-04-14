@@ -19,17 +19,3 @@ import CardBox from "./CardBox.vue"
         <CardBox class="card bg-dark" v-for="item in CardsList" :img="item.thumb" :title="item.series"></CardBox>
     </div>
 </template>
-
-<style lang="scss" scoped>
-.card_container{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.card{
-    width: calc(100% / 6);
-    aspect-ratio: 1/1;
-    border: none;
-}
-</style>

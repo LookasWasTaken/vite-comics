@@ -29,29 +29,3 @@ import ExternalSites from './ExternalSites.vue';
     <ExternalSites></ExternalSites>
   </main>
 </template>
-
-<style lang="scss" scoped>
-@use "../assets/scss/partials/variables" as *;
-.jumbo{
-  height: 430px;
-  overflow: hidden;
-}
-
-.current_series{
-  color: $light;
-  background-color: $accent;
-  width: max-content;
-  padding: 0.5rem 1rem;
-  transform: translate(0, -80%);
-}
-
-.load{
-  font-weight: 500;
-  color: $light;
-  background-color: $accent;
-  width: max-content;
-  padding: 0.5rem 5rem;
-  border: none;
-  margin: 2rem 0.5rem;
-}
-</style>

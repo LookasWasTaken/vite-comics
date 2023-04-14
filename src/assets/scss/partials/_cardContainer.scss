@@ -1,0 +1,13 @@
+@use "./variables.scss" as *;
+
+.card_container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  .card{
+    width: calc(100% / 6);
+    aspect-ratio: 1/1;
+    border: none;
+}
+}
