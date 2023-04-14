@@ -22,7 +22,7 @@ export default {
   <SiteHeader></SiteHeader>
 
   <main>
-    <div class="mamt">
+    <div class="jumbo">
       <img class="w-100" src="./assets/img/jumbotron.jpg" alt="Jumbotron">
     </div>
     <section id="main_section" class="bg-dark">
@@ -37,7 +37,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.mamt{
+.jumbo{
   height: 430px;
   overflow: hidden;
 }
