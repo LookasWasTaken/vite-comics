@@ -23,14 +23,15 @@ export default {
 
   <main>
     <section id="main_section" class="bg-dark">
-      <div class="container">
+      <div class="container py-5">
         <CardContainer></CardContainer>
-        <h1 class="m-0 py-5 text-light">Content goes BRRRRRRRR</h1>
       </div>
     </section>
     <ExternalSites></ExternalSites>
   </main>
-
   <SiteFooter></SiteFooter>
 
 </template>
+
+<style lang="scss" scoped>
+</style>
