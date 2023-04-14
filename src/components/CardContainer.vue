@@ -21,7 +21,6 @@ import CardBox from "./CardBox.vue"
 </template>
 
 <style lang="scss" scoped>
-@use "../assets/scss/partials/variables" as *;
 .card_container{
   display: flex;
   justify-content: center;
